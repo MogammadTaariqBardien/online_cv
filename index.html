@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mogammad Taariq Bardien | Portfolio</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <style>
+        .hero {
+            background-image: url(img/computer2.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .navbar-brand {
+            font-size: 34px;
+            font-weight: bold;
+        }
+
+        .hero-body > div > h1 {
+            color: black;
+        }
+   
+        .hero-body > div > h2 {
+            color: black;
+        }
+
+        .column > figure > img {
+            width: 500px;
+            height: 300px;    
+        }
+
+        .footer {
+            color: white;
+            background-color:  grey;
+        }
+    .navbar-end a {
+        color: black;
+    }
+
+    .about {
+        width: 600px;
+        margin-left: 30%;
+        padding-top: 15px;
+        font-size: 1.3em;
+    }
+        
+        
+    </style>
+</head>
+<body>
+    <section class="hero is-fullheight">
+        <nav class="navbar is-success">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#" class="navbar-item"></a>
+
+                    <span class="navbar-burger burger" data-target="navMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div class="navbar-menu" id="navMenu">
+                    <div class="navbar-end">
+                        <a href="#" class="navbar-item" style="color:black;">Home</a>
+                        <a href="#" class="navbar-item" style="color:black;">About</a>
+                        <a href="#" class="navbar-item" style="color:black;">Portfolio</a>
+                        <a href="#" class="navbar-item" style="color:black;">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Mogammad Taariq Bardien
+                </h1>
+                <h2 class="subtitle">
+                    Junior Web Developer
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="content has-text-centered">
+                <h1 class="title has-text-weight-bold">About</h1>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="about">
+                <section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia ullam perferendis cumque soluta officiis nostrum rerum ipsa voluptates? Nesciunt libero quibusdam ut consequatur eaque voluptatum veritatis repellendus distinctio ab.
+                </section>
+            </div>
+        </div>
+
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content has-text-centered">
+                <h1 class="title has-text-weight-bold">Portfolio</h1>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <figure class="image">
+                    <img src="img/default.jpeg" alt="" srcset="">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="image">
+                    <img src="img/default.jpeg" alt="" srcset="">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="image">
+                    <img src="img/default.jpeg" alt="" srcset="">
+                </figure>
+            </div>
+        </div>
+
+        <div class="columns">
+                <div class="column">
+                    <figure class="image">
+                        <img src="img/default.jpeg" alt="" srcset="">
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image">
+                        <img src="img/default.jpeg" alt="" srcset="">
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image">
+                        <img src="img/default.jpeg" alt="" srcset="">
+                    </figure>
+                </div>
+            </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content has-text-centered">
+                <h1 class="title has-text-weight-bold">Work Experience</h1>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+                <figure class="image">
+                    <img src="img/default.jpeg" alt="" srcset="">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="image">
+                    <img src="img/default.jpeg" alt="" srcset="">
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="image">
+                    <img src="img/default.jpeg" alt="" srcset="">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                &copy; Mogammad Taariq Bardien
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' +burger.dataset.target);
+
+            burger.addEventListener('click', function(){
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
+</body>
+</html>
