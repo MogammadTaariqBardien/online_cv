@@ -10,7 +10,7 @@
         .hero {
             background-image: url(img/computer2.jpeg);
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
         }
 
         .navbar-brand {
@@ -28,7 +28,7 @@
 
         .column > figure > img {
             width: 500px;
-            height: 200px;    
+            height: 250px;    
         }
 
         .footer {
@@ -40,9 +40,9 @@
     }
 
     .about {
-        width: 600px;
-        margin-left: 30%;
-        padding-top: 15px;
+        width: auto;
+        margin-left: auto;
+        padding-top: 2%;
         font-size: 1.3em;
     }
 
@@ -64,12 +64,26 @@
         position: relative;
     }
 
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+
     .image:hover .hide {
         opacity: 0.8;
     }
     
     a {
         color: whitesmoke;
+    }
+
+    hr {
+        width: 75%;
+        margin-left: 3.8em;
+    }
+    .navbar.is-success .navbar-burger {
+        color: black;
     }
         
     </style>
@@ -90,9 +104,10 @@
                 <div class="navbar-menu" id="navMenu">
                     <div class="navbar-end">
                         <a href="#" class="navbar-item" style="color:black;">Home</a>
-                        <a href="#" class="navbar-item" style="color:black;">About</a>
-                        <a href="#" class="navbar-item" style="color:black;">Portfolio</a>
-                        <a href="#" class="navbar-item" style="color:black;">Contact</a>
+                        <a href="#about" class="navbar-item" style="color:black;">About</a>
+                        <a href="#portfolio" class="navbar-item" style="color:black;">Portfolio</a>
+                        <a href="#" class="navbar-item" style="color:black;">Experience</a>
+                        <a href="#contact" class="navbar-item" style="color:black;">Contact</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +128,7 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold">About & Skills</h1>
+                <h1 class="title has-text-weight-bold" id="about">About & Skills</h1>
             </div>
         </div>
 
@@ -129,7 +144,7 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold">Portfolio</h1>
+                <h1 class="title has-text-weight-bold" id="portfolio">Portfolio</h1>
             </div>
         </div>
 
@@ -139,6 +154,7 @@
                     <img src="img/quiz.jpg" alt="" srcset="">
                     <div class='hide'>
                         <h3>Quiz Project</h3>
+                        <hr>
                         <a href="">View Project</a>
                     </div>
                 </figure>
@@ -148,6 +164,7 @@
                     <img src="img/jon.jpg" alt="" srcset="">
                     <div class='hide'>
                         <h3>Rebuilding Jon Chretian</h3>
+                        <hr>
                         <a href="">View Project</a>
                     </div>
                 </figure>
@@ -155,6 +172,11 @@
             <div class="column">
                 <figure class="image">
                     <img src="img/default.jpeg" alt="" srcset="">
+                    <div class='hide'>
+                            <h3>Rebuilding Jon Chretian</h3>
+                            <hr>
+                            <a href="">View Project</a>
+                    </div>
                 </figure>
             </div>
         </div>
@@ -163,16 +185,31 @@
                 <div class="column">
                     <figure class="image">
                         <img src="img/default.jpeg" alt="" srcset="">
+                        <div class='hide'>
+                            <h3>Rebuilding Jon Chretian</h3>
+                            <hr>
+                            <a href="">View Project</a>
+                        </div>
                     </figure>
                 </div>
                 <div class="column">
                     <figure class="image">
                         <img src="img/default.jpeg" alt="" srcset="">
+                        <div class='hide'>
+                            <h3>Rebuilding Jon Chretian</h3>
+                            <hr>
+                            <a href="">View Project</a>
+                        </div>
                     </figure>
                 </div>
                 <div class="column">
                     <figure class="image">
                         <img src="img/default.jpeg" alt="" srcset="">
+                        <div class='hide'>
+                            <h3>Rebuilding Jon Chretian</h3>
+                            <hr>
+                            <a href="">View Project</a>
+                        </div>
                     </figure>
                 </div>
             </div>
@@ -184,26 +221,9 @@
             </div>
         </div>
 
-        <div class="columns">
-            <div class="column">
-                <figure class="image">
-                    <img src="img/default.jpeg" alt="" srcset="">
-                </figure>
-            </div>
-            <div class="column">
-                <figure class="image">
-                    <img src="img/default.jpeg" alt="" srcset="">
-                </figure>
-            </div>
-            <div class="column">
-                <figure class="image">
-                    <img src="img/default.jpeg" alt="" srcset="">
-                </figure>
-            </div>
-        </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="content has-text-centered">
             <p>
                 &copy; Mogammad Taariq Bardien

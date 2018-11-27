@@ -38,6 +38,14 @@ Tools:
 - Live Link Created
 - Index File Created
 
+2018-11-26
+- Added framework
+- Some Styling
+- Added Images
+
+2018-11-27
+- Added hover effects
+- Updated Readme
 
 ## Contributors
 
