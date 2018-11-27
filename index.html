@@ -45,7 +45,32 @@
         padding-top: 15px;
         font-size: 1.3em;
     }
-        
+
+    .hide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: black;
+        color: white;
+        transition: opacity 300ms ease-in-out;
+        text-align: center;
+        padding-top: 5em;
+    }
+
+    .image {
+        position: relative;
+    }
+
+    .image:hover .hide {
+        opacity: 0.8;
+    }
+    
+    a {
+        color: whitesmoke;
+    }
         
     </style>
 </head>
@@ -112,11 +137,19 @@
             <div class="column">
                 <figure class="image">
                     <img src="img/quiz.jpg" alt="" srcset="">
+                    <div class='hide'>
+                        <h3>Quiz Project</h3>
+                        <a href="">View Project</a>
+                    </div>
                 </figure>
             </div>
             <div class="column">
                 <figure class="image">
                     <img src="img/jon.jpg" alt="" srcset="">
+                    <div class='hide'>
+                        <h3>Rebuilding Jon Chretian</h3>
+                        <a href="">View Project</a>
+                    </div>
                 </figure>
             </div>
             <div class="column">
