@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mogammad Taariq Bardien | Portfolio</title>
     <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
         .hero {
             background-image: url(img/computer2.jpeg);
@@ -35,57 +37,83 @@
             color: white;
             background-color:  grey;
         }
-    .navbar-end a {
-        color: black;
-    }
+        .navbar-end a {
+            color: black;
+        }
 
-    .about {
-        width: auto;
-        margin-left: auto;
-        padding-top: 2%;
-        font-size: 1.3em;
-    }
+        .about {
+            width: auto;
+            margin-left: auto;
+            padding-top: 2%;
+            font-size: 1.3em;
+        }
 
-    .hide {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        background-color: black;
-        color: white;
-        transition: opacity 300ms ease-in-out;
-        text-align: center;
-        padding-top: 5em;
-    }
+        .hide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background-color: black;
+            color: white;
+            transition: opacity 300ms ease-in-out;
+            text-align: center;
+            padding-top: 5em;
+        }
 
-    .image {
-        position: relative;
-    }
+        .image {
+            position: relative;
+        }
 
-    img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-    }
+        img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+        }
 
-    .image:hover .hide {
-        opacity: 0.8;
-    }
-    
-    a {
-        color: whitesmoke;
-    }
-
-    hr {
-        width: 75%;
-        margin-left: 3.8em;
-    }
-    .navbar.is-success .navbar-burger {
-        color: black;
-    }
+        .image:hover .hide {
+            opacity: 0.8;
+        }
         
+        a {
+            color: whitesmoke;
+        }
+
+        hr {
+            width: 75%;
+            margin-left: 3.8em;
+        }
+        .navbar.is-success .navbar-burger {
+            color: black;
+        }
+        
+        .navbar.is-success .navbar-end .navbar-item{
+            color: black;
+        }
+
+        .navbar {
+            position: relative;
+        }
+
+        #work {
+            padding-left: 30%;
+        }
+        #interests {
+            padding-left: 30%;
+        }
+        #about {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2%;
+        }
+
+        #split {
+            background-color: black;
+            width: 95%;
+            margin-left: 2.5%;
+        }
+
     </style>
 </head>
 <body>
@@ -103,11 +131,11 @@
                 </div>
                 <div class="navbar-menu" id="navMenu">
                     <div class="navbar-end">
-                        <a href="#" class="navbar-item" style="color:black;">Home</a>
-                        <a href="#about" class="navbar-item" style="color:black;">About</a>
-                        <a href="#portfolio" class="navbar-item" style="color:black;">Portfolio</a>
-                        <a href="#" class="navbar-item" style="color:black;">Experience</a>
-                        <a href="#contact" class="navbar-item" style="color:black;">Contact</a>
+                        <a href="#" class="navbar-item">Home</a>
+                        <a href="#about" class="navbar-item">About</a>
+                        <a href="#portfolio" class="navbar-item">Portfolio</a>
+                        <a href="#experience" class="navbar-item">Experience</a>
+                        <a href="#contact" class="navbar-item">Contact</a>
                     </div>
                 </div>
             </div>
@@ -133,9 +161,21 @@
         </div>
 
         <div class="columns">
-            <div class="about">
-                <section>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia ullam perferendis cumque soluta officiis nostrum rerum ipsa voluptates? Nesciunt libero quibusdam ut consequatur eaque voluptatum veritatis repellendus distinctio ab.
+            <div class="column">
+                <br>
+                <section id="about">
+                        I am Mogammad Taariq Bardien and I am a ambitious, sincere, hardworking, vibrant person that is very hard working and goal driven. As well as a person who attaches high value to my work duties and obligations.
+                </section>
+            </div>
+            <div class="column">
+                    <br>
+                <section id="interests">
+                            <li>Gaming</li>
+                            <li>Esports</li>
+                            <li>Computers</li>
+                            <li>Music</li>
+                            <li>Swimming</li>
+                            <li>Walking</li>
                 </section>
             </div>
         </div>
@@ -147,7 +187,7 @@
                 <h1 class="title has-text-weight-bold" id="portfolio">Portfolio</h1>
             </div>
         </div>
-
+        <br>
         <div class="columns">
             <div class="column">
                 <figure class="image">
@@ -173,7 +213,7 @@
                 <figure class="image">
                     <img src="img/default.jpeg" alt="" srcset="">
                     <div class='hide'>
-                            <h3>Rebuilding Jon Chretian</h3>
+                            <h3>Lorem Ipsum</h3>
                             <hr>
                             <a href="">View Project</a>
                     </div>
@@ -186,7 +226,7 @@
                     <figure class="image">
                         <img src="img/default.jpeg" alt="" srcset="">
                         <div class='hide'>
-                            <h3>Rebuilding Jon Chretian</h3>
+                            <h3>Lorem Ipsum</h3>
                             <hr>
                             <a href="">View Project</a>
                         </div>
@@ -196,7 +236,7 @@
                     <figure class="image">
                         <img src="img/default.jpeg" alt="" srcset="">
                         <div class='hide'>
-                            <h3>Rebuilding Jon Chretian</h3>
+                            <h3>Lorem Ipsum</h3>
                             <hr>
                             <a href="">View Project</a>
                         </div>
@@ -206,7 +246,7 @@
                     <figure class="image">
                         <img src="img/default.jpeg" alt="" srcset="">
                         <div class='hide'>
-                            <h3>Rebuilding Jon Chretian</h3>
+                            <h3>Lorem Ipsum</h3>
                             <hr>
                             <a href="">View Project</a>
                         </div>
@@ -217,14 +257,66 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold">Work Experience</h1>
+                <h1 class="title has-text-weight-bold">Qualifications</h1>
             </div>
         </div>
+        <div class="columns">
+        <div class="column">
+            <div class="column">
+                <div class="content has-text-centered">
+                    <h2 class="title has-text-weight-bold"> Matric</h2>
+                </div>
+                <section>
+                        <li>Islamia College Graduate Class of 2014</li>
+                </section>
+            </div>
+        </div>
+        <div class="column">
+            <div class="column">
+                <div class="content has-text-centered">
+                    <h2 class="title has-text-weight-bold"> Teriary Studies</h2>
+                </div>
+                <section>
+                        <li>CPUT N.D in Application Development 2015-2017 (incomplete) - Java,Html and Css</li>
+                        <li>Unisa BCom in Economics 2018 (incomplete)</li>
+                </section>
+            </div>
+        </div>
+    </div>
+    </section>
+    <hr id="split">
+    <section class="section">
+        <div class="container">
+            <div class="content has-text-centered">
+                <h1 class="title has-text-weight-bold" id="experience">Work Experience</h1>
+            </div>
+        </div>
+        <div class="columns">
+        <div class="column">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="content has-text-centered">
+                    <h2 class="title has-text-weight-bold">Musica</h2>
+                </div>
+                <section id="work">       
+                    <li>Karen Yon</li>
+                    <li>Contact Number: 072 094 9695 </li>
+                    <li>Email: mus0606mgr@musica.co.za </li>
+                </section>
+            </div>
+        </div>
+    </div>
 
     </section>
 
     <footer class="footer" id="contact">
         <div class="content has-text-centered">
+            <p>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-facebook"></i>
+            </p>
             <p>
                 &copy; Mogammad Taariq Bardien
             </p>
