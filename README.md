@@ -1,5 +1,5 @@
-# new_online_portfolio
-This Repository Contains the New Idea for An Online portfolio that I am working on.
+# Online Portfolio
+This Repository Contains the work I have done up until now. It is putting the skills I have learnt up till now to use.
 
 ## Live Link
 https://mogammadtaariqbardien.github.io/new_online_portfolio/index.html
