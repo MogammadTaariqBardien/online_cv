@@ -47,6 +47,17 @@ Tools:
 - Added hover effects
 - Updated Readme
 
+2018-11-30
+- Added extra columns
+- Added more information
+- Changed some styling
+
+2018-12-03
+- Updated Readme
+- Added Commenting
+- Fixed Responsive issues
+- Added some colour styling
+
 ## Contributors
 
 Mogammad Taariq Bardien - 2018
