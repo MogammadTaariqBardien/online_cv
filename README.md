@@ -8,6 +8,7 @@ https://mogammadtaariqbardien.github.io/new_online_portfolio/index.html
 
  - CSS
  - SCSS
+ - Bulma
 
 ### Other Technologies Used
 
@@ -26,7 +27,6 @@ Tools:
 
 - VS Code
 - GitBash
-- Ruby
 
 ```
 
