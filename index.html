@@ -110,8 +110,44 @@
 
         #split {
             background-color: black;
-            width: 95%;
-            margin-left: 2.5%;
+            width: 50%;
+            margin-left: 24%; 
+        }
+        .line {
+            text-align: center;
+        }
+
+
+        #interests li {
+            display: inline-block;
+            padding: 10px;
+            margin-top: 2%;
+        }
+
+        i {
+            padding-left: 2.5%;
+            padding-right: 2.5%;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+
+        .subtitle {
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+         .hide  {
+             width: 75%;
+         }
+
+        }
+        @media only screen and (max-width: 630px) {
+         .hide  {
+             width: 100%;
+         }
+
         }
 
     </style>
@@ -156,7 +192,7 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold" id="about">About & Skills</h1>
+                <h2 class="title has-text-weight-bold" id="about" class="underline">About & Skills</h2>
             </div>
         </div>
 
@@ -170,12 +206,16 @@
             <div class="column">
                     <br>
                 <section id="interests">
-                            <li>Gaming</li>
-                            <li>Esports</li>
-                            <li>Computers</li>
-                            <li>Music</li>
-                            <li>Swimming</li>
-                            <li>Walking</li>
+                    <ul>
+                        <li>- Gaming</li>
+                        <li>- Esports</li>
+                        <li>- Computers</li>
+                    </ul>
+                    <ul>
+                        <li>- Music</li>
+                        <li>- Swimming</li>
+                        <li>- Walking</li>
+                    </ul>
                 </section>
             </div>
         </div>
@@ -184,7 +224,7 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold" id="portfolio">Portfolio</h1>
+                <h2 class="title has-text-weight-bold" id="portfolio" class="underline">Portfolio</h2>
             </div>
         </div>
         <br>
@@ -257,14 +297,14 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold">Qualifications</h1>
+                <h2 class="title has-text-weight-bold" class="underline">Qualifications</h2>
             </div>
         </div>
         <div class="columns">
         <div class="column">
             <div class="column">
                 <div class="content has-text-centered">
-                    <h2 class="title has-text-weight-bold"> Matric</h2>
+                    <h3 class="title"> Matric</h3>
                 </div>
                 <section>
                         <li>Islamia College Graduate Class of 2014</li>
@@ -274,7 +314,7 @@
         <div class="column">
             <div class="column">
                 <div class="content has-text-centered">
-                    <h2 class="title has-text-weight-bold"> Teriary Studies</h2>
+                    <h3 class="title"> Teriary Studies</h3>
                 </div>
                 <section>
                         <li>CPUT N.D in Application Development 2015-2017 (incomplete) - Java,Html and Css</li>
@@ -284,18 +324,20 @@
         </div>
     </div>
     </section>
+    <div class="line">
     <hr id="split">
+    </div>
     <section class="section">
         <div class="container">
             <div class="content has-text-centered">
-                <h1 class="title has-text-weight-bold" id="experience">Work Experience</h1>
+                <h2 class="title has-text-weight-bold" id="experience" class="underline">Work Experience</h2>
             </div>
         </div>
         <div class="columns">
         <div class="column">
             <div class="column is-half is-offset-one-quarter">
                 <div class="content has-text-centered">
-                    <h2 class="title has-text-weight-bold">Musica</h2>
+                    <h3 class="title">Musica</h3>
                 </div>
                 <section id="work">       
                     <li>Karen Yon</li>
@@ -310,12 +352,10 @@
 
     <footer class="footer" id="contact">
         <div class="content has-text-centered">
-            <p>
+            <p id="social">
                 <i class="fa fa-instagram"></i>
-                <i class="fa fa-twitter"></i>
                 <i class="fa fa-linkedin"></i>
                 <i class="fa fa-github"></i>
-                <i class="fa fa-facebook"></i>
             </p>
             <p>
                 &copy; Mogammad Taariq Bardien
