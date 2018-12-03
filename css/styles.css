@@ -1,0 +1,146 @@
+/* Contains the style for the hero and the image behind it */
+.hero {
+    background-image: url(img/computer2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.hero-body > div > h1 {
+    color: black;
+}
+
+.hero-body > div > h2 {
+    color: black;
+}
+
+.column > figure > img {
+    width: 100%;
+    height: 100%;    
+}
+
+.footer {
+    color: white;
+    background-color:  grey;
+}
+.navbar-end a {
+    color: black;
+}
+
+.about {
+    width: auto;
+    margin-left: auto;
+    padding-top: 2%;
+    font-size: 1.3em;
+}
+/* Styles the div that provides the hover image  and gives it a transition effect */
+.hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    transition: opacity 300ms ease-in-out;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.image {
+    position: relative;
+}
+/* Style to ensure that the images quality is not lost */
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image:hover .hide {
+    opacity: 0.8;
+}
+
+a {
+    color: whitesmoke;
+}
+
+hr {
+    width: 75%;
+    margin-left: 3.8em;
+}
+.navbar.is-success .navbar-burger {
+    color: black;
+}
+
+.navbar.is-success .navbar-end .navbar-item{
+    color: black;
+}
+
+.navbar {
+    position: relative;
+}
+
+#work {
+    padding-left: 30%;
+}
+#interests {
+    padding-left: 30%;
+}
+#about {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+#split {
+    background-color: black;
+    width: 50%;
+    margin-left: 24%; 
+}
+.line {
+    text-align: center;
+}
+
+li {
+    list-style-type: disc;
+}
+#interests li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+i {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.subtitle {
+    text-decoration: none;
+}
+
+.section a:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 495px) {
+    #interests li {
+    display: inline;
+}
+
+    #work {
+        padding-left: 0;
+    }
+}

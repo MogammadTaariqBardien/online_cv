@@ -6,165 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mogammad Taariq Bardien | Portfolio</title>
     <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <style>
-        .hero {
-            background-image: url(img/computer2.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .navbar-brand {
-            font-size: 34px;
-            font-weight: bold;
-        }
-
-        .hero-body > div > h1 {
-            color: black;
-        }
-   
-        .hero-body > div > h2 {
-            color: black;
-        }
-
-        .column > figure > img {
-            width: 500px;
-            height: 250px;    
-        }
-
-        .footer {
-            color: white;
-            background-color:  grey;
-        }
-        .navbar-end a {
-            color: black;
-        }
-
-        .about {
-            width: auto;
-            margin-left: auto;
-            padding-top: 2%;
-            font-size: 1.3em;
-        }
-
-        .hide {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            background-color: black;
-            color: white;
-            transition: opacity 300ms ease-in-out;
-            text-align: center;
-            padding-top: 5em;
-        }
-
-        .image {
-            position: relative;
-        }
-
-        img {
-            width: auto;
-            height: auto;
-            max-width: 100%;
-        }
-
-        .image:hover .hide {
-            opacity: 0.8;
-        }
-        
-        a {
-            color: whitesmoke;
-        }
-
-        hr {
-            width: 75%;
-            margin-left: 3.8em;
-        }
-        .navbar.is-success .navbar-burger {
-            color: black;
-        }
-        
-        .navbar.is-success .navbar-end .navbar-item{
-            color: black;
-        }
-
-        .navbar {
-            position: relative;
-        }
-
-        #work {
-            padding-left: 30%;
-        }
-        #interests {
-            padding-left: 30%;
-        }
-        #about {
-            padding-left: 5%;
-            padding-right: 5%;
-            padding-top: 2%;
-        }
-
-        #split {
-            background-color: black;
-            width: 50%;
-            margin-left: 24%; 
-        }
-        .line {
-            text-align: center;
-        }
-
-
-        #interests li {
-            display: inline-block;
-            padding: 10px;
-            margin-top: 2%;
-        }
-
-        i {
-            padding-left: 2.5%;
-            padding-right: 2.5%;
-        }
-
-        h2 {
-            text-decoration: underline;
-        }
-
-        .subtitle {
-            text-decoration: none;
-        }
-
-        @media only screen and (max-width: 768px) {
-         .hide  {
-             width: 75%;
-         }
-
-        }
-        @media only screen and (max-width: 630px) {
-         .hide  {
-             width: 100%;
-         }
-
-        }
-
-    </style>
 </head>
 <body>
+    <!-- Start of the section containing the navbar, hero image and header -->
     <section class="hero is-fullheight">
         <nav class="navbar is-success">
             <div class="container">
                 <div class="navbar-brand">
                     <a href="#" class="navbar-item"></a>
-
                     <span class="navbar-burger burger" data-target="navMenu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </span>
                 </div>
+                <!-- Div containing all the navbar items -->
                 <div class="navbar-menu" id="navMenu">
                     <div class="navbar-end">
                         <a href="#" class="navbar-item">Home</a>
@@ -174,9 +33,10 @@
                         <a href="#contact" class="navbar-item">Contact</a>
                     </div>
                 </div>
+                <!-- End of the Div -->
             </div>
         </nav>
-
+        <!-- Div containing the hero image and my name -->
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">
@@ -187,51 +47,68 @@
                 </h2>
             </div>
         </div>
+        <!-- End of Div -->
     </section>
-
+    <!-- End of section -->
+    <!-- Start of section containing information about me -->
     <section class="section">
+        <!-- Div containing the heading in the section -->
         <div class="container">
             <div class="content has-text-centered">
                 <h2 class="title has-text-weight-bold" id="about" class="underline">About & Skills</h2>
             </div>
         </div>
-
+        <!-- End pf Div -->
+        <!-- Below is 2 different Divs splitting the content -->
         <div class="columns">
+            <!-- Start of first Div with information of me -->
             <div class="column">
                 <br>
                 <section id="about">
                         I am Mogammad Taariq Bardien and I am a ambitious, sincere, hardworking, vibrant person that is very hard working and goal driven. As well as a person who attaches high value to my work duties and obligations.
                 </section>
             </div>
+            <!-- End of Div -->
+            <!-- Start of second Div with information of me -->
             <div class="column">
                     <br>
                 <section id="interests">
                     <ul>
-                        <li>- Gaming</li>
-                        <li>- Esports</li>
-                        <li>- Computers</li>
-                    </ul>
-                    <ul>
-                        <li>- Music</li>
-                        <li>- Swimming</li>
-                        <li>- Walking</li>
+                        <li>Gaming</li>
+                        <li>Esports</li>
+                        <li>Computers</li><br>
+                        <li>Music</li>
+                        <li>Swimming</li>
+                        <li>Walking</li>
                     </ul>
                 </section>
             </div>
+            <!-- End of Div -->
         </div>
-
+        <!-- End of the 2 different Divs splitting the content -->
     </section>
+    <!-- End of section containing information about me -->
+    <!-- Div containing the Line splitting each section -->
+    <div class="line">
+        <hr id="split">
+    </div>
+    <!-- End of Div containing the Line splitting each section -->
+    <!-- Start of the section containing my portfolio work -->
     <section class="section">
         <div class="container">
+            <!-- Div containing the heading in the section -->
             <div class="content has-text-centered">
                 <h2 class="title has-text-weight-bold" id="portfolio" class="underline">Portfolio</h2>
             </div>
+            <!-- End of Div containing the heading in the section -->
         </div>
         <br>
+        <!-- Div containing 3 columns for projects -->
         <div class="columns">
+            <!-- A column containing a project preview and link to it -->
             <div class="column">
                 <figure class="image">
-                    <img src="img/quiz.jpg" alt="" srcset="">
+                    <img src="img/quiz.jpg" alt="" srcset="" target="_blank">
                     <div class='hide'>
                         <h3>Quiz Project</h3>
                         <hr>
@@ -239,9 +116,11 @@
                     </div>
                 </figure>
             </div>
+            <!-- End of column -->
+            <!-- A column containing a project preview and link to it -->
             <div class="column">
                 <figure class="image">
-                    <img src="img/jon.jpg" alt="" srcset="">
+                    <img src="img/jon.jpg" alt="" srcset="" target="_blank">
                     <div class='hide'>
                         <h3>Rebuilding Jon Chretian</h3>
                         <hr>
@@ -249,9 +128,11 @@
                     </div>
                 </figure>
             </div>
+            <!-- End of column -->
+            <!-- A column containing a project preview and link to it -->
             <div class="column">
                 <figure class="image">
-                    <img src="img/default.jpeg" alt="" srcset="">
+                    <img src="img/jon.jpg" alt="" srcset="" target="_blank">
                     <div class='hide'>
                             <h3>Lorem Ipsum</h3>
                             <hr>
@@ -259,12 +140,15 @@
                     </div>
                 </figure>
             </div>
+            <!-- End of column -->
         </div>
-
+        <!-- End of Div containing multiple projects -->
+        <!-- Div containing 3 columns for projects -->
         <div class="columns">
+            <!-- A column containing a project preview and link to it -->
                 <div class="column">
                     <figure class="image">
-                        <img src="img/default.jpeg" alt="" srcset="">
+                        <img src="img/jon.jpg" alt="" srcset="" target="_blank">
                         <div class='hide'>
                             <h3>Lorem Ipsum</h3>
                             <hr>
@@ -272,9 +156,11 @@
                         </div>
                     </figure>
                 </div>
+                <!-- End of column -->
+                <!-- A column containing a project preview and link to it -->
                 <div class="column">
                     <figure class="image">
-                        <img src="img/default.jpeg" alt="" srcset="">
+                        <img src="img/jon.jpg" alt="" srcset="" target="_blank">
                         <div class='hide'>
                             <h3>Lorem Ipsum</h3>
                             <hr>
@@ -282,9 +168,11 @@
                         </div>
                     </figure>
                 </div>
+                <!-- End of column -->
+                <!-- A column containing a project preview and link to it -->
                 <div class="column">
                     <figure class="image">
-                        <img src="img/default.jpeg" alt="" srcset="">
+                        <img src="img/jon.jpg" alt="" srcset="" target="_blank">
                         <div class='hide'>
                             <h3>Lorem Ipsum</h3>
                             <hr>
@@ -292,53 +180,82 @@
                         </div>
                     </figure>
                 </div>
+                <!-- End of column -->
             </div>
+            <!-- End of Div containing multiple projects -->
     </section>
+    <!-- End of the section containing my portfolio work -->
+    <!-- Div containing the Line splitting each section -->
+    <div class="line">
+        <hr id="split">
+    </div>
+    <!-- End of Div containing the Line splitting each section -->
+    <!-- Start of the section containing my qualifications -->
     <section class="section">
         <div class="container">
+            <!-- Div containing the heading in the section -->
             <div class="content has-text-centered">
                 <h2 class="title has-text-weight-bold" class="underline">Qualifications</h2>
             </div>
+            <!-- End of Div containing the heading in the section -->
         </div>
+        <!-- Div containing 2 columns of information -->
         <div class="columns">
-        <div class="column">
             <div class="column">
-                <div class="content has-text-centered">
-                    <h3 class="title"> Matric</h3>
-                </div>
+                <div class="column">
+                    <!-- Div containing a sub heading in the section -->
+                    <div class="content has-text-centered">
+                        <h3 class="title"> Matric</h3>
+                    </div>
+                    <!-- End of Div containing a sub heading in the section -->
+                    <!-- Section containing content -->
                 <section>
                         <li>Islamia College Graduate Class of 2014</li>
                 </section>
+                    <!-- End of Section containing content -->
             </div>
         </div>
         <div class="column">
             <div class="column">
+                <!-- Div containing a sub heading in the section -->
                 <div class="content has-text-centered">
                     <h3 class="title"> Teriary Studies</h3>
                 </div>
+                <!-- End of Div containing a sub heading in the section -->
+                <!-- Section containing content -->
                 <section>
-                        <li>CPUT N.D in Application Development 2015-2017 (incomplete) - Java,Html and Css</li>
+                        <li>CPUT N.D in Application Development 2015-2017 (incomplete) - Java, HTML and CSS</li>
                         <li>Unisa BCom in Economics 2018 (incomplete)</li>
                 </section>
+                <!-- End of Section containing content -->
             </div>
         </div>
     </div>
     </section>
+    <!-- End of the section containing my qualifications -->
+    <!-- Div containing the Line splitting each section -->
     <div class="line">
-    <hr id="split">
+        <hr id="split">
     </div>
+    <!-- End of Div containing the Line splitting each section -->
+    <!-- Start of the section containing my work experience -->
     <section class="section">
         <div class="container">
+            <!-- Div containing the heading in the section -->
             <div class="content has-text-centered">
                 <h2 class="title has-text-weight-bold" id="experience" class="underline">Work Experience</h2>
             </div>
+            <!-- End of Div containing the heading in the section -->
         </div>
         <div class="columns">
+        <!-- Div containing a column of information -->
         <div class="column">
             <div class="column is-half is-offset-one-quarter">
+                <!-- Div containing the sub heading in the section -->
                 <div class="content has-text-centered">
                     <h3 class="title">Musica</h3>
                 </div>
+                <!-- End of Div containing the sub heading in the section -->
                 <section id="work">       
                     <li>Karen Yon</li>
                     <li>Contact Number: 072 094 9695 </li>
@@ -346,23 +263,29 @@
                 </section>
             </div>
         </div>
+        <!-- End of Div containing a column of information -->
     </div>
 
     </section>
-
+    <!-- End of the section containing my work experience -->
+    <!-- Start of the footer containing links and content -->
     <footer class="footer" id="contact">
+        
         <div class="content has-text-centered">
+            <!-- Paragraph containing links to external pages -->
             <p id="social">
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-linkedin"></i>
-                <i class="fa fa-github"></i>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/?trk=nav_logo" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/MogammadTaariqBardien" target="_blank"><i class="fa fa-github"></i></a>
             </p>
+            <!-- End of Paragraph containing links to external pages -->
             <p>
                 &copy; Mogammad Taariq Bardien
             </p>
         </div>
     </footer>
-
+    <!-- End of the footer  -->
+    <!-- Script to make the navbar clickable and responsive -->
     <script>
         (function() {
             var burger = document.querySelector('.burger');
@@ -374,5 +297,6 @@
             });
         })();
     </script>
+    <!-- End of Script to make the navbar clickable and responsive -->
 </body>
 </html>
