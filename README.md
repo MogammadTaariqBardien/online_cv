@@ -58,6 +58,9 @@ Tools:
 - Fixed Responsive issues
 - Added some colour styling
 
+2018-12-04
+- Fixed minor responsive issues
+
 ## Contributors
 
 Mogammad Taariq Bardien - 2018
