@@ -137,3 +137,13 @@ h2 {
         padding-left: 0;
     }
 }
+@media only screen and (max-width: 451px) {
+    .hide {
+        padding-top: 3.5em;
+    }
+}
+@media only screen and (max-width: 401px) {
+    .hide {
+        padding-top: 2.5em;
+    }
+}
