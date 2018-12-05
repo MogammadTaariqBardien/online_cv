@@ -84,9 +84,6 @@ hr {
     position: relative;
 }
 
-#work {
-    padding-left: 30%;
-}
 #interests {
     padding-left: 30%;
 }
@@ -126,17 +123,17 @@ i {
 
 .fa-instagram:before {
     content: "\f16d";
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 .fa-linkedin:before {
     content: "\f0e1";
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 .fa-github:before {
     content: "\f0e1";
-    font-size: 1.1em;
+    font-size: 1.15em;
 }
 
 h2 {
@@ -154,6 +151,10 @@ h2 {
 .footer {
     font-size: 1em;
 }
+
+/* .hero-body {
+    padding-bottom: 10%;
+} */
 
 @media only screen and (max-width: 495px) {
     #interests li {
