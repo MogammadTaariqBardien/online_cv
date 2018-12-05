@@ -121,6 +121,22 @@ li {
 i {
     padding-left: 2.5%;
     padding-right: 2.5%;
+    font-size: 2em;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    font-size: 1.1em;
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+    font-size: 1.1em;
+}
+
+.fa-github:before {
+    content: "\f0e1";
+    font-size: 1.1em;
 }
 
 h2 {
@@ -133,6 +149,10 @@ h2 {
 
 .section a:hover {
     color: red;
+}
+
+.footer {
+    font-size: 1em;
 }
 
 @media only screen and (max-width: 495px) {
