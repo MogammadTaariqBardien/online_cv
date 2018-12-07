@@ -91,6 +91,7 @@ hr {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
+    margin-bottom: 0;
 }
 
 #split {
@@ -102,16 +103,21 @@ hr {
     text-align: center;
 }
 
-li {
-    list-style-type: disc;
-}
-#interests li {
-    display: inline-block;
-    padding: 10px;
-    margin-top: 2%;
-    margin-right: 10%;
+#interests {
+    text-align: center;
+    margin-right: 30%;
 }
 
+#first {
+    padding-bottom: 0%;
+    background-color: #829CBC;
+    color: black;
+}
+
+#second {
+    background-color: #829CBC;
+    color: black;
+}   
 #download {
     color: black;
 }
@@ -160,10 +166,6 @@ h2 {
     #interests li {
     display: inline;
 }
-
-    #work {
-        padding-left: 0;
-    }
 }
 @media only screen and (max-width: 451px) {
     .hide {
