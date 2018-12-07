@@ -33,6 +33,7 @@ html {
     margin-left: auto;
     padding-top: 2%;
     font-size: 1.3em;
+    color: black;
 }
 /* Styles the div that provides the hover image  and gives it a transition effect */
 .hide {
@@ -94,6 +95,10 @@ hr {
     margin-bottom: 0;
 }
 
+#skills {
+    color: white;
+}
+
 #split {
     background-color: black;
     width: 50%;
@@ -111,15 +116,28 @@ hr {
 #first {
     padding-bottom: 0%;
     background-color: #829CBC;
-    color: black;
+    color: white;
 }
 
 #second {
     background-color: #829CBC;
-    color: black;
+    color: white;
+}
+
+#colour {
+    color: white;
 }   
 #download {
     color: black;
+}
+
+#third {
+    color: black;
+}
+
+#fourth {
+    padding-top: 2%;
+    padding-bottom: 0;
 }
 i {
     padding-left: 2.5%;
@@ -142,6 +160,7 @@ i {
     font-size: 1.15em;
 }
 
+
 h2 {
     text-decoration: underline;
 }
@@ -157,7 +176,9 @@ h2 {
 .footer {
     font-size: 1em;
 }
-
+.navbar.is-success .navbar-end .navbar-item:hover {
+    background-color: #829CBC !important;
+}
 /* .hero-body {
     padding-bottom: 10%;
 } */
