@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
   }
 
+span {
+    font-size: 2em !important;
+}
+
+
 .navbar-brand {
     font-size: 34px;
     font-weight: bold;
@@ -21,7 +26,7 @@ html {
 }
 
 .footer {
-    color: white;
+    color: whitesmoke;
     background-color:  #829CBC;
 }
 .navbar-end a {
@@ -44,7 +49,7 @@ html {
     height: 100%;
     opacity: 0;
     background-color: black;
-    color: white;
+    color: whitesmoke;
     transition: opacity 300ms ease-in-out;
     text-align: center;
     padding-top: 5em;
@@ -88,11 +93,20 @@ hr {
 #interests {
     padding-left: 30%;
 }
+.png {
+    height: 100px;
+    width: 100px;
+}
+
+#icons {
+    padding-left: 27%;
+}
 #about {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
     margin-bottom: 0;
+    color: white;
 }
 
 #skills {
@@ -114,18 +128,21 @@ hr {
 }
 
 #first {
-    padding-bottom: 0%;
+    padding-bottom: 2%;
     background-color: #829CBC;
-    color: white;
+    color: whitesmoke;
+}
+#third {
+    padding-bottom: 2%;
 }
 
 #second {
     background-color: #829CBC;
-    color: white;
+    color: whitesmoke;
 }
 
 #colour {
-    color: white;
+    color: whitesmoke;
 }   
 #download {
     color: black;
@@ -142,7 +159,6 @@ hr {
 i {
     padding-left: 2.5%;
     padding-right: 2.5%;
-    font-size: 2em;
 }
 
 .fa-instagram:before {
@@ -160,8 +176,35 @@ i {
     font-size: 1.15em;
 }
 
+.fa-php:before {
+    content: "\f457";
+    font-size: 1.15em;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.fa-sass:before {
+    content: "\f41e";
+    font-size: 1.15em;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.fa-html5:before {
+    content: "\f13b";
+    font-size: 1.15em;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.fa-css3:before {
+    content: "\f13c";
+    font-size: 1.15em;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
 
 h2 {
+    text-decoration: underline;
+}
+h {
     text-decoration: underline;
 }
 
@@ -183,6 +226,41 @@ h2 {
     padding-bottom: 10%;
 } */
 
+
+@media only screen and (max-width: 1309px) {
+    #icons {
+        padding-left: 19%;
+    }
+}
+
+@media only screen and (max-width: 1109px) {
+    #icons {
+        padding-left: 16%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #icons {
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 829px) {
+    #icons {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #icons {
+        padding-left: 19%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    #icons {
+        padding-left: 15%;
+    }
+}
 @media only screen and (max-width: 495px) {
     #interests li {
     display: inline;
@@ -197,6 +275,14 @@ h2 {
     hr {
         margin-left: 3em;
     }
+    #icons {
+        padding-left: 10%;
+    }
+}
+@media only screen and (max-width: 430px) {
+    #icons {
+        padding-left: 10%;
+    }
 }
 @media only screen and (max-width: 401px) {
     .hide {
@@ -206,5 +292,10 @@ h2 {
 @media only screen and (max-width: 361px) {
     .hide {
         padding-top: 2em;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #icons {
+        padding-left: 7%;
     }
 }
