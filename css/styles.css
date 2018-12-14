@@ -218,7 +218,9 @@ i {
 /* .hero-body {
     padding-bottom: 10%;
 } */
-
+#change {
+    padding-top: 0%;
+}
 
 @media only screen and (max-width: 1309px) {
     #icons {
