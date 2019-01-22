@@ -52,7 +52,7 @@ span {
     color: whitesmoke;
     transition: opacity 300ms ease-in-out;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 3.5em;
 }
 
 .image {
@@ -76,7 +76,7 @@ a {
 
 hr {
     width: 75%;
-    margin-left: 3.8em;
+    margin-left: 3.6em;
 }
 .navbar.is-success .navbar-burger {
     color: black;
